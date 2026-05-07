@@ -1,0 +1,26 @@
+# 构建/编译产物
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.obj
+*.axf
+
+# CubeMX 自动生成的非核心文件
+.mxproject
+startup_stm32*.s
+STM32*_FLASH.ld
+
+# IDE/工具配置
+.idea/
+.vscode/
+*.user
+*.suo
+*.cache
+
+# 第三方驱动库
+Drivers/
+CMSIS/
+Middlewares/
